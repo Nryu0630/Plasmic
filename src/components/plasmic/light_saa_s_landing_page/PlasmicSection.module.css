@@ -1,0 +1,70 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 64px;
+}
+.rootbackground_dark {
+  background: var(--token-iTaSfs0O3K3I);
+}
+.rootbackground_gray {
+  background: var(--token-UUfRBHZt8lUa);
+}
+.rootbackground_darkBlue {
+  background: #032974;
+}
+.rootbackground_blue {
+  background: #e5eeff;
+}
+.rootsize_fullContentWidth {
+  padding: 0px;
+}
+.rootsize_fullContentGallery {
+  padding: 64px 0px;
+}
+.rootsize_dashboardSection {
+  padding-right: 0px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.rootsize_faq {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.rootsize_widthContent1140Px {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: auto;
+  max-width: var(--token-UW8xHaCBCpP4);
+  display: inline-flex;
+}
+.freeBox {
+  max-width: var(--token-UW8xHaCBCpP4);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  background: none;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBoxsize_fullContentWidth {
+  max-width: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.freeBoxsize_fullContentGallery {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 0;
+}
